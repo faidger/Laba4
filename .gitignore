@@ -1,0 +1,31 @@
+# C++ build artifacts
+build/
+*.o
+*.a
+*.gcda
+*.gcno
+*.gcov
+*.info
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# Coverage reports
+coverage_html/
+htmlcov/
+.pytest_cache/
+
+# Python virtualenv
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.coverage
